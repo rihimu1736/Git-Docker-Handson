@@ -11,4 +11,4 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 # コンテナ起動時にスクリプトを実行
-CMD ["python", "main.py"] 
+CMD ["python3", "main.py"] 
